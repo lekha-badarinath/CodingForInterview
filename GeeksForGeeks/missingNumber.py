@@ -1,3 +1,4 @@
+#Question - https://practice.geeksforgeeks.org/problems/missing-number-in-array/0
 def simple():
     num = int(input())
     arr = [int(x) for x in raw_input().split()]
