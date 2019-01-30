@@ -1,7 +1,10 @@
 #Question - https://practice.geeksforgeeks.org/problems/missing-number-in-array/0
+
+#---------------------------------------------------------------------------------------------------------------------------
+
 def simple():
     num = int(input())
-    arr = [int(x) for x in raw_input().split()]
+    arr = [int(x) for x in input().split()] #Python v2 - raw_input
     if len(arr) != 1:
         for i in range(len(arr)-1):
             if arr[i+1] - arr[i] != 1:
@@ -15,7 +18,7 @@ def simple():
 def missingSum():
     for test in range(int(input())):        
         num_of_elements = int(input())
-        arr = [int(x) for x in raw_input().split()]
+        arr = [int(x) for x in input().split()] #Python v2 - raw_input
         sets = set()
         for i in range(len(arr)-1):
             difference = arr[i+1]-arr[i]
@@ -36,4 +39,4 @@ def missingSum():
         #     print (arr)
         #=======================================================================
 
-missingSum()
+#missingSum()
