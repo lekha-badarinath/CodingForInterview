@@ -17,12 +17,3 @@ to_f = c_temp(12.55,15.61)
 to_f2 = c_temp(37.5,36.6)
 
 to_f()
-
-import pandas as pd
-
-df = pd.read_excel(r"C:\Users\LB064195\Desktop\LMH\test.xlsx")
-print df
-df["new"] = ''
-#df["Encntr Number"] = df["Encntr Number"].astype(str)
-df["new"] = str(df["Patient Name"]+ " "+df["Encntr Number"])
-print df
