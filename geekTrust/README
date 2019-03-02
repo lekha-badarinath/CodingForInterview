@@ -1,0 +1,39 @@
+This is the solution for Problem-4 of the GeekTrust coding challenges.
+
+Link to the problem statement - https://www.geektrust.in/coding-problem/backend/cricket
+
+Problem name - CRICKET
+Language used - Python
+Version - 3.6.8
+
+The programs will run only on python 3.6. Python v2 does not support random.choices() which is the main method needed for these codes 
+
+The first part of the problem - The Toss has also been solved here.
+
+The solution has been divided into three modules - theToss.py, theLastFour.py, theTie.py
+
+Each module has been developed using Object Oriented Programming concepts.
+
+Wherever possible, comments have been added to make the code comprehensible.
+
+Lists and Dictionaries have been used extensively throughout the challenge.
+
+Attempt has been made to make the code as reusable as possible, without compromising the readability of the programs.
+
+A small sleep time of 0.5 seconds has been added at places to make the flow of the code feel more real-world-like.
+
+*********************************************************************************************************************************************
+theTie
+	-input must be given as a phrase (eg. - Clear Day/Cloudy Night)
+	-for inputs where the team's preference is not clear, the winning team will always bat.
+
+theLastFour
+	-inputs will be simulated from within the program. There is no need for any user inputs.
+	-the random.choices() method will generate the inputs.
+
+theTie
+	-inputs will be simulated from within the program. There is no need for any user inputs.
+	-the random.choices() method will generate the inputs.
+	-Winner will be decided after comparing the final scores of both the teams.
+
+**********************************************************************************************************************************************
