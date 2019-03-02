@@ -1,7 +1,6 @@
 import random
 import time
-import os
-print (os.getcwd())
+
 class TieBreaker():
     def __init__(self):
         self.score = 0          #counter for counting total score
