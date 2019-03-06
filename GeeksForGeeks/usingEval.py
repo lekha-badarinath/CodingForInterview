@@ -12,7 +12,7 @@ def function_creator():
     # printing evaluated result 
     print("y = {}".format(y))
     
-#function_creator()
+# function_creator()
 
 def add(*args):
     n=0
@@ -21,11 +21,12 @@ def add(*args):
     return n  
 #print (add(1,2,3,4))
 
-def multiply(*args):
-    n=1
-    for i in args:
-        n *= i
-    return n
+def multiply(x):
+        return x*3
 mul = [1,2,3,4,5]
-print (multiply(*mul))
-    
+# print (multiply(*mul))
+
+ls = [x for x in range(1,11)]
+print (ls)
+ls2 = map(multiply,ls)
+print (ls2)
